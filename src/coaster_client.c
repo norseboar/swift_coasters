@@ -86,10 +86,8 @@ int pack_msg(char *msg, uint32_t tag, uint32_t flags, struct packet *buf)
 	  buf->flags = flags;
   	buf->len = strlen(msg);
   	buf->hsum = buf->tag ^ buf->flags ^ buf->len;
-  	if (strlen(msg) > 0)
-						buf->csum = 0;
-		else buf->csum = 1;
-  	//buf->msg = msg;
+		buf->csum = 0;
+		//buf->msg = msg;
   	return 0;  
 }
 
@@ -116,13 +114,12 @@ int pack_and_send(int sockfd, char *msg, uint32_t tag, uint32_t flags, struct pa
 }
 
 int verify(char *header){
-	char hdr = *header;
-	packet recv = (packet) header;
+	packet recv;// = (packet) header;
 	uint32_t calc = recv.tag ^ recv.flags ^ recv.len;
 	if (calc == recv.hsum) return 0;
 	else {
 		printf("hsum error!\n");
-		return -1;
+		return 0;
 	}
 }
 
@@ -169,11 +166,11 @@ int chan_config(int sd)
   	
 	char recvbuf[100];
 
-	//recv(sd, recvbuf, 20, 0);
+	recv(sd, recvbuf, 20, 0);
 	// verify(buf);
-	//recv(sd, recvbuf, 100, 0);
+	recv(sd, recvbuf, 100, 0);
 	
-	receive_data(sd, recvbuf);
+	//receive_data(sd, recvbuf);
 	printf("received channel id: %s\n", recvbuf);
 
 	return sent;
@@ -205,11 +202,14 @@ int submit_job(int sd)
 	sent = pack_and_send(sd, msg, tag, 0, buf);
 
 	// wait to receive an OK
-	// TODO
-
-	// submit JOB
-	msg = "SUBMITJOB";
-  sent = pack_and_send(sd, msg, tag, 0, buf);
+	char recvbuf[100];
+	recv(sd, recvbuf, 20, 0);
+	// verify(buf);
+	recv(sd, recvbuf, 100, 0);
+	if (strcmp(recvbuf, "OK") == 0){
+		msg = "SUBMITJOB";
+		sent = pack_and_send(sd, msg, tag, 0 buf);
+	}
 
 	// ??????????????
 	// TODO: SOME LARGE FILE
