@@ -1,0 +1,199 @@
+2012-05-22 18:09:24,321-0500 DEBUG Loader arguments: [-sites.file, sites.xml, -tc.file, tc.data, /home/jchu542/swift-0.93/cog/modules/swift/examples/tutorial/hello.swift, -config, cf, -logfile, /home/jchu542/logs/052218/hello-052218.log]
+2012-05-22 18:09:24,322-0500 DEBUG Loader Max heap: 259522560
+2012-05-22 18:09:24,326-0500 DEBUG textfiles BEGIN SWIFTSCRIPT:
+type messagefile;
+
+app (messagefile t) greeting() { 
+    echo "Hello, world!" stdout=@filename(t);
+}
+
+messagefile outfile <"hello.txt">;
+
+outfile = greeting();
+
+
+
+2012-05-22 18:09:24,326-0500 DEBUG textfiles END SWIFTSCRIPT:
+2012-05-22 18:09:24,329-0500 DEBUG Loader kmlversion is >82b956df-d74c-4fb4-a78d-cd83ec621b15<
+2012-05-22 18:09:24,329-0500 DEBUG Loader build version is >82b956df-d74c-4fb4-a78d-cd83ec621b15<
+2012-05-22 18:09:24,329-0500 DEBUG Loader Recompilation suppressed.
+2012-05-22 18:09:25,029-0500 DEBUG Loader setting: sites.file to: sites.xml
+2012-05-22 18:09:25,029-0500 DEBUG Loader setting: tc.file to: tc.data
+2012-05-22 18:09:25,029-0500 DEBUG textfiles using default sites file
+2012-05-22 18:09:25,057-0500 INFO  VDL2ExecutionContext Stack dump:
+Level 1
+[iA = 0, iB = 0, bA = false, bB = false]
+	vdl:instanceconfigfile = cf
+	vdl:instanceconfig = Swift configuration [cf]
+	vdl:operation = run
+	PATH_SEPARATOR = /
+	swift.home = /home/jchu542/swift-0.93/cog/modules/swift/dist/swift-svn/bin/..
+
+
+2012-05-22 18:09:27,227-0500 INFO  unknown Using sites file: sites.xml
+2012-05-22 18:09:27,352-0500 INFO  unknown Using tc.data: tc.data
+2012-05-22 18:09:27,630-0500 INFO  AbstractScheduler Setting resources to: {persistent-coasters=persistent-coasters}
+2012-05-22 18:09:28,984-0500 INFO  unknown Swift 0.93 swift-r5783 cog-r3400
+
+2012-05-22 18:09:28,987-0500 INFO  unknown RUNID id=run:20120522-1809-c3vmjabb
+2012-05-22 18:09:29,524-0500 DEBUG greeting PROCEDURE line=3 thread=0-1 name=greeting
+2012-05-22 18:09:29,552-0500 INFO  vdl:execute START thread=0-1 tr=echo
+2012-05-22 18:09:29,585-0500 INFO  WeightedHostScoreScheduler CONTACT_SELECTED host=persistent-coasters, score=99.854
+2012-05-22 18:09:29,597-0500 INFO  GlobalSubmitQueue No global submit throttle set. Using default (1024)
+2012-05-22 18:09:29,608-0500 INFO  LateBindingScheduler JobQueue: 0
+2012-05-22 18:09:29,622-0500 INFO  LateBindingScheduler JobQueue: 0
+2012-05-22 18:09:29,630-0500 DEBUG vdl:execute2 THREAD_ASSOCIATION jobid=echo-8cxbxork thread=0-1-1 host=persistent-coasters replicationGroup=7cxbxork
+2012-05-22 18:09:29,649-0500 DEBUG vdl:execute2 JOB_START jobid=echo-8cxbxork tr=echo arguments=[Hello, world!] tmpdir=hello-20120522-1809-c3vmjabb/jobs/8/echo-8cxbxork host=persistent-coasters
+2012-05-22 18:09:29,652-0500 DEBUG textfiles BEGIN TC:
+persistent-coasters echo /bin/echo null null null
+persistent-coasters wc /usr/bin/wc null null null
+persistent-coasters ls /bin/ls null null null
+persistent-coasters cat /bin/cat null null null
+
+
+
+
+2012-05-22 18:09:29,652-0500 DEBUG textfiles END TC:
+2012-05-22 18:09:29,712-0500 INFO  GridExec TASK_DEFINITION: Task(type=JOB_SUBMISSION, identity=urn:0-1-1-1337728167250) is /bin/bash _swiftwrap.staging -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k -cdmfile  -status provider -a Hello, world!
+2012-05-22 18:09:29,816-0500 WARN  RemoteConfiguration Find: http://localhost:12000
+2012-05-22 18:09:29,816-0500 WARN  RemoteConfiguration Find:  keepalive(120), reconnect - http://localhost:12000
+2012-05-22 18:09:29,831-0500 INFO  AbstractKarajanChannel MetaChannel: 2136814472[1071802123: {}] -> null: Disabling heartbeats (disabled in config)
+2012-05-22 18:09:29,903-0500 INFO  AbstractStreamKarajanChannel$Multiplexer Multiplexer 0 started
+2012-05-22 18:09:30,130-0500 INFO  AbstractStreamKarajanChannel$Multiplexer Multiplexer 1 started
+2012-05-22 18:09:29,903-0500 INFO  AbstractStreamKarajanChannel$Multiplexer (0) Scheduling SC-null for addition
+2012-05-22 18:09:30,131-0500 INFO  AbstractStreamKarajanChannel nullChannel started
+2012-05-22 18:09:30,471-0500 INFO  ChannelConfigurationCommand Got reply
+2012-05-22 18:09:30,471-0500 INFO  AbstractStreamKarajanChannel Channel configured
+2012-05-22 18:09:30,472-0500 INFO  MetaChannel MetaChannel: 2136814472[1071802123: {}] -> null.bind -> SC-null
+2012-05-22 18:09:31,023-0500 INFO  GetFileHandler Handler(3, GET) request complete
+2012-05-22 18:09:31,054-0500 INFO  GetFileHandler Handler(3, GET) sending length: 6070, 1542500044
+2012-05-22 18:09:31,086-0500 INFO  ReadBuffer Will ask for 1 buffers for a size of 6070
+2012-05-22 18:09:31,128-0500 INFO  ReadBuffer De-allocating 1 buffers
+2012-05-22 18:09:31,580-0500 DEBUG vdl:execute2 APPLICATION_EXCEPTION jobid=echo-8cxbxork - Application exception: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+2012-05-22 18:09:31,601-0500 INFO  ThrottleManager O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+2012-05-22 18:09:31,693-0500 INFO  ThrottleManager I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+2012-05-22 18:09:31,732-0500 INFO  WeightedHostScoreScheduler CONTACT_SELECTED host=persistent-coasters, score=99.854
+2012-05-22 18:09:31,775-0500 DEBUG vdl:execute2 THREAD_ASSOCIATION jobid=echo-acxbxork thread=0-1-1 host=persistent-coasters replicationGroup=9cxbxork
+2012-05-22 18:09:32,072-0500 INFO  ThrottleManager mem=12.52 MB, heap=30.94 MB, maxHeap=247.5 MB
+2012-05-22 18:09:32,081-0500 DEBUG vdl:execute2 JOB_START jobid=echo-acxbxork tr=echo arguments=[Hello, world!] tmpdir=hello-20120522-1809-c3vmjabb/jobs/a/echo-acxbxork host=persistent-coasters
+2012-05-22 18:09:32,157-0500 INFO  GridExec TASK_DEFINITION: Task(type=JOB_SUBMISSION, identity=urn:0-1-1-1337728167253) is /bin/bash _swiftwrap.staging -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k -cdmfile  -status provider -a Hello, world!
+2012-05-22 18:09:32,204-0500 INFO  ThrottleManager I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+2012-05-22 18:09:32,354-0500 INFO  GetFileHandler Handler(7, GET) request complete
+2012-05-22 18:09:32,357-0500 INFO  GetFileHandler Handler(7, GET) sending length: 6070, 224301783
+2012-05-22 18:09:32,357-0500 INFO  ReadBuffer Will ask for 1 buffers for a size of 6070
+2012-05-22 18:09:32,360-0500 INFO  ReadBuffer De-allocating 1 buffers
+2012-05-22 18:09:32,579-0500 INFO  ThrottleManager O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+2012-05-22 18:09:32,579-0500 INFO  ThrottleManager mem=12.64 MB, heap=30.94 MB, maxHeap=247.5 MB
+2012-05-22 18:09:32,701-0500 INFO  PerformanceDiagnosticInputStream [IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+2012-05-22 18:09:32,701-0500 INFO  PerformanceDiagnosticInputStream [MEM] Heap total: 30.94 MB, Heap used: 12.72 MB
+2012-05-22 18:09:32,799-0500 DEBUG vdl:execute2 APPLICATION_EXCEPTION jobid=echo-acxbxork - Application exception: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+2012-05-22 18:09:32,819-0500 INFO  vdl:execute END_FAILURE thread=0-1 tr=echo
+2012-05-22 18:09:32,832-0500 DEBUG VDL2ExecutionContext Exception in echo:
+Arguments: [Hello, world!]
+Host: persistent-coasters
+Directory: hello-20120522-1809-c3vmjabb/jobs/a/echo-acxbxork
+- - -
+
+Exception in echo:
+Arguments: [Hello, world!]
+Host: persistent-coasters
+Directory: hello-20120522-1809-c3vmjabb/jobs/a/echo-acxbxork
+- - -
+
+Caused by: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.karajan.workflow.nodes.functions.KException.function(KException.java:29)
+	at org.globus.cog.karajan.workflow.nodes.functions.AbstractFunction.post(AbstractFunction.java:27)
+	at org.globus.cog.karajan.workflow.nodes.AbstractSequentialWithArguments.completed(AbstractSequentialWithArguments.java:194)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.complete(FlowNode.java:214)
+	at org.globus.cog.karajan.workflow.nodes.FlowContainer.post(FlowContainer.java:58)
+	at org.globus.cog.karajan.workflow.nodes.functions.AbstractFunction.post(AbstractFunction.java:28)
+	at org.globus.cog.karajan.workflow.nodes.Sequential.startNext(Sequential.java:29)
+	at org.globus.cog.karajan.workflow.nodes.Sequential.executeChildren(Sequential.java:20)
+	at org.globus.cog.karajan.workflow.nodes.FlowContainer.execute(FlowContainer.java:63)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.restart(FlowNode.java:139)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.start(FlowNode.java:197)
+	at org.globus.cog.karajan.workflow.events.EventBus.start(EventBus.java:104)
+	at org.globus.cog.karajan.workflow.events.EventTargetPair.run(EventTargetPair.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.failImmediately(FlowNode.java:101)
+	at org.globus.cog.karajan.workflow.nodes.grid.GridExec.taskFailed(GridExec.java:379)
+	at org.globus.cog.karajan.workflow.nodes.grid.AbstractGridNode.statusChanged(AbstractGridNode.java:268)
+	at org.griphyn.vdl.karajan.lib.Execute.statusChanged(Execute.java:119)
+	at org.globus.cog.karajan.scheduler.AbstractScheduler.fireJobStatusChangeEvent(AbstractScheduler.java:168)
+	at org.globus.cog.karajan.scheduler.LateBindingScheduler.statusChanged(LateBindingScheduler.java:674)
+	at org.globus.cog.karajan.scheduler.WeightedHostScoreScheduler.statusChanged(WeightedHostScoreScheduler.java:426)
+	at org.griphyn.vdl.karajan.VDSAdaptiveScheduler.statusChanged(VDSAdaptiveScheduler.java:410)
+	at org.globus.cog.abstraction.impl.common.task.TaskImpl.notifyListeners(TaskImpl.java:240)
+	at org.globus.cog.abstraction.impl.common.task.TaskImpl.setStatus(TaskImpl.java:228)
+	at org.globus.cog.abstraction.impl.execution.coaster.NotificationManager.setStatus(NotificationManager.java:111)
+	at org.globus.cog.abstraction.impl.execution.coaster.NotificationManager.notificationReceived(NotificationManager.java:77)
+	at org.globus.cog.abstraction.coaster.service.local.JobStatusHandler.requestComplete(JobStatusHandler.java:45)
+	at org.globus.cog.karajan.workflow.service.handlers.RequestHandler.receiveCompleted(RequestHandler.java:87)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractKarajanChannel.handleRequest(AbstractKarajanChannel.java:481)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:180)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.abstraction.coaster.service.local.JobStatusHandler.requestComplete(JobStatusHandler.java:37)
+	... 4 more
+2012-05-22 18:09:32,869-0500 INFO  ThrottleManager I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+2012-05-22 18:09:33,023-0500 INFO  ExecutionContext Detailed exception: 
+Exception in echo:
+Arguments: [Hello, world!]
+Host: persistent-coasters
+Directory: hello-20120522-1809-c3vmjabb/jobs/a/echo-acxbxork
+- - -
+
+Caused by: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.karajan.workflow.nodes.functions.KException.function(KException.java:29)
+	at org.globus.cog.karajan.workflow.nodes.functions.AbstractFunction.post(AbstractFunction.java:27)
+	at org.globus.cog.karajan.workflow.nodes.AbstractSequentialWithArguments.completed(AbstractSequentialWithArguments.java:194)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.complete(FlowNode.java:214)
+	at org.globus.cog.karajan.workflow.nodes.FlowContainer.post(FlowContainer.java:58)
+	at org.globus.cog.karajan.workflow.nodes.functions.AbstractFunction.post(AbstractFunction.java:28)
+	at org.globus.cog.karajan.workflow.nodes.Sequential.startNext(Sequential.java:29)
+	at org.globus.cog.karajan.workflow.nodes.Sequential.executeChildren(Sequential.java:20)
+	at org.globus.cog.karajan.workflow.nodes.FlowContainer.execute(FlowContainer.java:63)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.restart(FlowNode.java:139)
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.start(FlowNode.java:197)
+	at org.globus.cog.karajan.workflow.events.EventBus.start(EventBus.java:104)
+	at org.globus.cog.karajan.workflow.events.EventTargetPair.run(EventTargetPair.java:40)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:441)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:303)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:138)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:886)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:908)
+	at java.lang.Thread.run(Thread.java:662)
+Caused by: null
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.karajan.workflow.nodes.FlowNode.failImmediately(FlowNode.java:101)
+	at org.globus.cog.karajan.workflow.nodes.grid.GridExec.taskFailed(GridExec.java:379)
+	at org.globus.cog.karajan.workflow.nodes.grid.AbstractGridNode.statusChanged(AbstractGridNode.java:268)
+	at org.griphyn.vdl.karajan.lib.Execute.statusChanged(Execute.java:119)
+	at org.globus.cog.karajan.scheduler.AbstractScheduler.fireJobStatusChangeEvent(AbstractScheduler.java:168)
+	at org.globus.cog.karajan.scheduler.LateBindingScheduler.statusChanged(LateBindingScheduler.java:674)
+	at org.globus.cog.karajan.scheduler.WeightedHostScoreScheduler.statusChanged(WeightedHostScoreScheduler.java:426)
+	at org.griphyn.vdl.karajan.VDSAdaptiveScheduler.statusChanged(VDSAdaptiveScheduler.java:410)
+	at org.globus.cog.abstraction.impl.common.task.TaskImpl.notifyListeners(TaskImpl.java:240)
+	at org.globus.cog.abstraction.impl.common.task.TaskImpl.setStatus(TaskImpl.java:228)
+	at org.globus.cog.abstraction.impl.execution.coaster.NotificationManager.setStatus(NotificationManager.java:111)
+	at org.globus.cog.abstraction.impl.execution.coaster.NotificationManager.notificationReceived(NotificationManager.java:77)
+	at org.globus.cog.abstraction.coaster.service.local.JobStatusHandler.requestComplete(JobStatusHandler.java:45)
+	at org.globus.cog.karajan.workflow.service.handlers.RequestHandler.receiveCompleted(RequestHandler.java:87)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractKarajanChannel.handleRequest(AbstractKarajanChannel.java:481)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:180)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Caused by: org.globus.cog.abstraction.impl.common.execution.JobException: Job failed with an exit code of 126
+	at org.globus.cog.abstraction.coaster.service.local.JobStatusHandler.requestComplete(JobStatusHandler.java:37)
+	... 4 more
+2012-05-22 18:09:33,028-0500 INFO  Loader Swift finished with errors

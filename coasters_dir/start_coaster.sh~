@@ -1,0 +1,11 @@
+#!/bin/bash
+
+TRACE=$1
+PORT=$2
+LPORT=$3
+
+RUN=`date +%m%d-%k%M`
+LOGDIR=/stage/swift-coasters/logs/$RUN/
+mkdir $LOGDIR
+touch $LOGDIR/coaster-$RUN.log
+strace -f -e trace=$TRACE -e read=all -e write=all -o ${LOGDIR}strace-coaster-$RUN.log coaster-service -passive -nosec -p $PORT -localport $LPORT | tee -a ${LOGDIR}/coaster-$RUN.log

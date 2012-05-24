@@ -1,0 +1,191 @@
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+Multiplexer 1 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1967571412[2019524978: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1967571412[2019524978: {}] -> null.bind -> SC-null
+Started CPU 0:1336868615s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 59, sleepTime: 9989
+Avg stream buf: 0
+runTime: 3, sleepTime: 10049
+Avg stream buf: 0
+runTime: 39, sleepTime: 9989
+Sender WorkerChannel queue size: 0
+SC-swork0-000000 up latency: 5ms, rtt: 9ms
+Avg stream buf: 0
+runTime: 17, sleepTime: 10009
+Avg stream buf: 0
+runTime: 20, sleepTime: 10023
+Avg stream buf: 0
+runTime: 35, sleepTime: 9993
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+Multiplexer 1 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1967571412[2019524978: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1967571412[2019524978: {}] -> null.bind -> SC-null
+Started CPU 0:1336868894s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 81, sleepTime: 9969
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel id: u6597517f-1374398a244--8000-u-287bf925-1374398a26e--8000
+MetaChannel: 2060982148[15735326: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2060982148[15735326: {}] -> null.bind -> SC-null
+swork0:0 pull
+swork0:0 submitting urn:1336868903310-1336868905786-1336868905787: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1928-oncyqtmf/shared/_swiftwrap echo-hcrpj8rk -jobdir h -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+Sender WorkerChannel queue size: 0
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336868903330-1336868905789-1336868905790: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1928-oncyqtmf/shared/_swiftwrap echo-jcrpj8rk -jobdir j -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336868903350-1336868905792-1336868905793: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1928-oncyqtmf/shared/_swiftwrap echo-lcrpj8rk -jobdir l -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+Avg stream buf: 0
+runTime: 167, sleepTime: 9880
+Congestion queue size: 0
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1336869193s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 30, sleepTime: 9971
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel id: u719c0592-137439d4bc8--8000-u5f10b3c6-137439d4bf2--8000
+MetaChannel: 2066473405[2112978551: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2066473405[2112978551: {}] -> null.bind -> SC-null
+swork0:0 pull
+swork0:0 submitting urn:1336869208828-1336869211339-1336869211340: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1933-t5525a51/shared/_swiftwrap echo-prvxj8rk -jobdir p -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+Sender WorkerChannel queue size: 0
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869208848-1336869211342-1336869211343: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1933-t5525a51/shared/_swiftwrap echo-rrvxj8rk -jobdir r -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869208868-1336869211345-1336869211346: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1933-t5525a51/shared/_swiftwrap echo-trvxj8rk -jobdir t -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+Avg stream buf: 0
+runTime: 85, sleepTime: 9991
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+Multiplexer 1 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1967571412[2019524978: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1967571412[2019524978: {}] -> null.bind -> SC-null
+Started CPU 0:1336869354s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 69, sleepTime: 9968
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1336869550s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 54, sleepTime: 10003
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel id: u3548a7d4-13743a2a8f5--8000-u-1f943a5b-13743a2a94a--8000
+MetaChannel: 2066473405[2112978551: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2066473405[2112978551: {}] -> null.bind -> SC-null
+swork0:0 pull
+swork0:0 submitting urn:1336869560388-1336869562894-1336869562895: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1939-rakfsnxe/shared/_swiftwrap echo-qr36k8rk -jobdir q -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+Sender WorkerChannel queue size: 0
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869560408-1336869562897-1336869562898: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1939-rakfsnxe/shared/_swiftwrap echo-sr36k8rk -jobdir s -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869560428-1336869562900-1336869562901: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1939-rakfsnxe/shared/_swiftwrap echo-ur36k8rk -jobdir u -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+Avg stream buf: 0
+runTime: 208, sleepTime: 9832
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1336869935s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+runTime: 39, sleepTime: 10003
+Channel id: u-65a2d20d-13743a87eeb--8000-ub8a652a-13743a87f30--8000
+MetaChannel: 2066473405[2112978551: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2066473405[2112978551: {}] -> null.bind -> SC-null
+swork0:0 pull
+swork0:0 submitting urn:1336869942763-1336869945360-1336869945361: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1945-mmjsl32f/shared/_swiftwrap echo-6x0fk8rk -jobdir 6 -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+Sender WorkerChannel queue size: 0
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869942783-1336869945363-1336869945364: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1945-mmjsl32f/shared/_swiftwrap echo-8x0fk8rk -jobdir 8 -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull
+swork0:0 pull
+swork0:0 submitting urn:1336869942803-1336869945366-1336869945367: /bin/bash /home/jchu542/swift_dir/swiftwork/hello-20120512-1945-mmjsl32f/shared/_swiftwrap echo-ax0fk8rk -jobdir a -scratch  -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k  -cdmfile  -status files -a Hello, world!
+swork0:0 jobTerminated
+swork0:0 pull

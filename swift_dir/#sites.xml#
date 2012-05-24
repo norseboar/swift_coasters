@@ -1,0 +1,14 @@
+<config>
+  <pool handle="persistent-coasters">
+    <execution provider="coaster-persistent"
+               url="http://arcturus.cs.uchicago.edu:12000"
+               jobmanager=""/>
+    <profile namespace="globus" key="workerManager">passive</profile>
+    <profile namespace="globus" key="jobsPerNode">2</profile>
+    <profile key="jobThrottle" namespace="karajan">0.059</profile>
+    <profile namespace="karajan" key="initialScore">10000</profile>
+    <filesystem provider="local" url="none" />
+    <workdirectory>/stage/swift-coasters/swift_di/swiftwork/</workdirectory>
+    <scratch>/stage/swift-coasters/swift_dir/scratch/</scratch>
+  </pool>
+</config>

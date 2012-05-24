@@ -1,0 +1,44 @@
+19436 --- SIGCHLD (Child exited) @ 0 (0) ---
+19435 --- SIGCHLD (Child exited) @ 0 (0) ---
+19435 --- SIGCHLD (Child exited) @ 0 (0) ---
+19435 --- SIGCHLD (Child exited) @ 0 (0) ---
+19443 sendto(3, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+19443 sendto(3, "\2\0\0\0\f\0\0\0\6\0\0\0group\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+19442 --- SIGCHLD (Child exited) @ 0 (0) ---
+19435 --- SIGCHLD (Child exited) @ 0 (0) ---
+19446 sendto(3, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+19446 sendto(92, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+19467 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+19469 recvfrom(93, "\301%\0\0\0\0\0\0\10\0\0\0\311%\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "REGISTER", 8, 0, NULL, NULL) = 8
+19469 recvfrom(93, "\301%\0\0\0\0\0\0\6\0\0\0\307%\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "swork0", 6, 0, NULL, NULL) = 6
+19469 recvfrom(93, "\301%\0\0\0\0\0\0\25\0\0\0\324%\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "login.ci.uchicago.edu", 21, 0, NULL, NULL) = 21
+19469 recvfrom(93, "\301%\0\0\2\0\0\0\20\0\0\0\323%\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "maxwalltime = -1", 16, 0, NULL, NULL) = 16
+19472 sendto(93, "\301%\0\0\3\0\0\0\6\0\0\0\304%\0\0!\1\366\3", 20, 0, NULL, 0) = 20
+19472 sendto(93, "000000", 6, 0, NULL, 0) = 6
+19469 recvfrom(92, "\1\0\0\0\0\0\0\0\r\0\0\0\f\0\0\0\1\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(92, "CHANNELCONFIG", 13, 0, NULL, NULL) = 13
+19469 recvfrom(92, "\1\0\0\0\0\0\0\0\32\0\0\0\33\0\0\0\1\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(92, " keepalive(120), reconnect", 26, 0, NULL, NULL) = 26
+19469 recvfrom(92, "\1\0\0\0\0\0\0\0\0\0\0\0\1\0\0\0\1\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(92, "\1\0\0\0\0\0\0\0\32\0\0\0\33\0\0\0\1\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(92, "ub8a652a-13743a87f30--8000", 26, 0, NULL, NULL) = 26
+19469 recvfrom(92, "\1\0\0\0\2\0\0\0\0\0\0\0\3\0\0\0\1\0\0\0", 20, 0, NULL, NULL) = 20
+19485 sendto(92, "\1\0\0\0\3\0\0\0\34\0\0\0\36\0\0\0\310\0066d", 20, 0, NULL, 0) = 20
+19485 sendto(92, "u-458c1538-137773fdbc6--8000", 28, 0, NULL, 0) = 28
+19469 recvfrom(93, "\302%\0\0\2\0\0\0\t\0\0\0\311%\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "HEARTBEAT", 9, 0, NULL, NULL) = 9
+19472 sendto(93, "\302%\0\0\3\0\0\0\r\0\0\0\314%\0\0\250\2\202\22", 20, 0, NULL, 0) = 20
+19472 sendto(93, "1337735514727", 13, 0, NULL, 0) = 13
+19472 sendto(93, "\1\0\0\0\0\0\0\0\t\0\0\0\10\0\0\0\221\2\275\f", 20, 0, NULL, 0) = 20
+19472 sendto(93, "HEARTBEAT", 9, 0, NULL, 0) = 9
+19472 sendto(93, "\1\0\0\0\2\0\0\0\r\0\0\0\16\0\0\0\251\2\215\22", 20, 0, NULL, 0) = 20
+19472 sendto(93, "1337735517491", 13, 0, NULL, 0) = 13
+19469 recvfrom(93, "\1\0\0\0\3\0\0\0\r\0\0\0\17\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+19469 recvfrom(93, "1337735517497", 13, 0, NULL, NULL) = 13
+19445 --- SIGINT (Interrupt) @ 0 (0) ---
+19435 --- SIGINT (Interrupt) @ 0 (0) ---
+19435 --- SIGCHLD (Child exited) @ 0 (0) ---

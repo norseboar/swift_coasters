@@ -1,0 +1,7 @@
+wrapperlog.always.transfer=true
+sitedir.keep=true
+execution.retries=1
+use.provider.staging=true
+provider.staging.pin.swiftfiles=false
+foreach.max.threads=10
+provenance.log=false

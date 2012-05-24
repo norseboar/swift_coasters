@@ -1,0 +1,6 @@
+persistent-coasters	echo	/bin/echo	INSTALLED	INTEL32::LINUX	null 
+persistent-coasters wc /usr/bin/wc null null null
+persistent-coasters ls /bin/ls null null null
+persistent-coasters cat /bin/cat null null null
+
+

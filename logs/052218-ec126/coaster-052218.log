@@ -1,0 +1,361 @@
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1337728157s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 265, sleepTime: 9826
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel id: u-2a2b0470-13776cff8a6--8000-u-453817c3-13776cff9d6--8000
+MetaChannel: 2112978551[2040919865: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2112978551[2040919865: {}] -> null.bind -> SC-null
+swork0:0 pull
+swork0:0 submitting urn:1337728167250-1337728170666-1337728170667: /bin/bash _swiftwrap.staging -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k -cdmfile  -status provider -a Hello, world!
+Sender WorkerChannel queue size: 0
+Handler(4392, GET) request complete
+Handler(4392, GET) -> 3
+Handler(4392, GET) sending length: 6070, 1033068770
+swork0:0 jobTerminated
+swork0:0 pull
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.53 MB, heap=30.94 MB, maxHeap=494.94 MB
+swork0:0 pull
+swork0:0 submitting urn:1337728167253-1337728170669-1337728170670: /bin/bash _swiftwrap.staging -e /bin/echo -out hello.txt -err stderr.txt -i -d  -if  -of hello.txt -k -cdmfile  -status provider -a Hello, world!
+Handler(4396, GET) request complete
+Handler(4396, GET) -> 7
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.57 MB, heap=30.94 MB, maxHeap=494.94 MB
+Handler(4396, GET) sending length: 6070, 1492359994
+swork0:0 jobTerminated
+swork0:0 pull
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.71 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.71 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.71 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.71 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.72 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.72 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.76 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.76 MB
+Avg stream buf: 0
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.76 MB, heap=30.94 MB, maxHeap=494.94 MB
+runTime: 201, sleepTime: 9847
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.76 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.77 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.77 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.77 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.77 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.77 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.77 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 3.77 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.82 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=3.86 MB, heap=30.94 MB, maxHeap=494.94 MB
+Congestion queue size: 0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.03 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.03 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.08 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.08 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.08 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.08 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.09 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.13 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.13 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.13 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.13 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.13 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.14 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.14 MB
+Avg stream buf: 0
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+runTime: 22, sleepTime: 9999
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.14 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.14 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.14 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.18 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.18 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.19 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.23 MB, heap=30.94 MB, maxHeap=494.94 MB
+Sender WorkerChannel queue size: 1
+SC-swork0-000000 up latency: 2ms, rtt: 8ms
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.23 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.23 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.23 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+Congestion queue size: 0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.23 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.23 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.24 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.28 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.28 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.29 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.29 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.29 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.29 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.29 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.34 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.34 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.34 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.34 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.35 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.35 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.39 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.4 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.4 MB
+Avg stream buf: 0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.49 MB, heap=30.94 MB, maxHeap=494.94 MB
+runTime: 26, sleepTime: 9996
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.49 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.5 MB
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.5 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.54 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.54 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.54 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.54 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.54 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.55 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.55 MB, heap=30.94 MB, maxHeap=494.94 MB
+Congestion queue size: 0
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.55 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.55 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.55 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.55 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.59 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.64 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.64 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.64 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.64 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.64 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.69 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.69 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.69 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.69 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.69 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.69 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.69 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.7 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.74 MB
+Avg stream buf: 0
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.74 MB, heap=30.94 MB, maxHeap=494.94 MB
+runTime: 26, sleepTime: 9995
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.74 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.74 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.74 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.74 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.75 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.75 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.75 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.75 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.75 MB, heap=30.94 MB, maxHeap=494.94 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+Congestion queue size: 0
+O maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0
+mem=4.75 MB, heap=30.94 MB, maxHeap=494.94 MB
+[IN] Total transferred: 0 B, current rate: 0 B/s, average rate: 0 B/s
+[MEM] Heap total: 30.94 MB, Heap used: 4.75 MB
+I maxBuffers=512, crtBuffers=0, allowedTransfers=256, active=0, suspended=0

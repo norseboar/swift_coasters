@@ -1,0 +1,31 @@
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1337735484s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 77, sleepTime: 9936
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Data checksum failed. Compute checksum: 19a503b0, checksum: 1
+Data checksum failed. Compute checksum: 738408c8, checksum: 1
+Data checksum failed. Compute checksum: 5d670659, checksum: 1
+Channel id: ub8a652a-13743a87f30--8000-u-458c1538-137773fdbc6--8000
+MetaChannel: 2066473405[2112978551: {}] -> null: Disabling heartbeats (disabled in config)
+MetaChannel: 2066473405[2112978551: {}] -> null.bind -> SC-null
+Avg stream buf: 0
+runTime: 16, sleepTime: 10005
+Avg stream buf: 0
+runTime: 30, sleepTime: 9992
+Sender WorkerChannel queue size: 1
+SC-swork0-000000 up latency: 21ms, rtt: 27ms

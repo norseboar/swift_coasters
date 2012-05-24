@@ -1,0 +1,150 @@
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1337732818s
+Started worker swork0:000000
+swork0:0 pull
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel IOException
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:331)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel config: null
+Handling channel exception
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:331)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+null: Channel shut down
+Failed to shut down channel
+org.globus.cog.karajan.workflow.service.channels.ChannelException: Invalid channel: 653163028: {}
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.getMetaChannel(ChannelManager.java:454)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.getMetaChannel(ChannelManager.java:434)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.shutdownChannel(ChannelManager.java:423)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.handleChannelException(ChannelManager.java:286)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.handleChannelException(AbstractStreamKarajanChannel.java:84)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:281)
+Channel exception handled
+Channel IOException
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:99)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:330)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel config: null
+Handling channel exception
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:99)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:330)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel already shut down
+Channel is closed. Removing.
+Exception in channel step
+java.io.IOException: Stream closed.
+	at java.net.PlainSocketImpl.available(PlainSocketImpl.java:452)
+	at java.net.SocketInputStream.available(SocketInputStream.java:217)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:114)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Channel config: null
+Handling channel exception
+java.io.IOException: Stream closed.
+	at java.net.PlainSocketImpl.available(PlainSocketImpl.java:452)
+	at java.net.SocketInputStream.available(SocketInputStream.java:217)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:114)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Channel already shut down
+Removing faulty channel SC-null
+Local contacts: [http://128.135.125.155:12001]
+Started local service: http://128.135.125.155:12001
+Started coaster service: http://128.135.125.155:12000
+Started coaster service: http://128.135.125.155:12000
+Multiplexer 0 started
+(0) Scheduling SC-null for addition
+nullChannel started
+Multiplexer 1 started
+Received registration: blockid = swork0, url = login.ci.uchicago.edu
+MetaChannel: 1551083435[755301112: {}] -> null: Disabling heartbeats (config is null)
+MetaChannel: 1551083435[755301112: {}] -> null.bind -> SC-null
+Started CPU 0:1337733172s
+Started worker swork0:000000
+swork0:0 pull
+Avg stream buf: 0
+runTime: 54, sleepTime: 9994
+SC-null: Disabling heartbeats (config is null)
+(0) Scheduling SC-null for addition
+nullChannel started
+Channel IOException
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:331)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel config: null
+Handling channel exception
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:92)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:331)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+null: Channel shut down
+Failed to shut down channel
+org.globus.cog.karajan.workflow.service.channels.ChannelException: Invalid channel: 653163028: {}
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.getMetaChannel(ChannelManager.java:454)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.getMetaChannel(ChannelManager.java:434)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.shutdownChannel(ChannelManager.java:423)
+	at org.globus.cog.karajan.workflow.service.channels.ChannelManager.handleChannelException(ChannelManager.java:286)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.handleChannelException(AbstractStreamKarajanChannel.java:84)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:281)
+Channel exception handled
+Channel IOException
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:99)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:330)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel config: null
+Handling channel exception
+java.net.SocketException: Socket closed
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:99)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:124)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.send(AbstractStreamKarajanChannel.java:330)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Sender.run(AbstractStreamKarajanChannel.java:273)
+Channel already shut down
+Channel is closed. Removing.
+Exception in channel step
+java.io.IOException: Stream closed.
+	at java.net.PlainSocketImpl.available(PlainSocketImpl.java:452)
+	at java.net.SocketInputStream.available(SocketInputStream.java:217)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:114)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Channel config: null
+Handling channel exception
+java.io.IOException: Stream closed.
+	at java.net.PlainSocketImpl.available(PlainSocketImpl.java:452)
+	at java.net.SocketInputStream.available(SocketInputStream.java:217)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel.step(AbstractStreamKarajanChannel.java:114)
+	at org.globus.cog.karajan.workflow.service.channels.AbstractStreamKarajanChannel$Multiplexer.run(AbstractStreamKarajanChannel.java:404)
+Channel already shut down
+Removing faulty channel SC-null
+Avg stream buf: 0
+runTime: 29, sleepTime: 10003
+Avg stream buf: 0
+runTime: 21, sleepTime: 10000

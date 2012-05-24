@@ -1,0 +1,38 @@
+15382 --- SIGCHLD (Child exited) @ 0 (0) ---
+15381 --- SIGCHLD (Child exited) @ 0 (0) ---
+15381 --- SIGCHLD (Child exited) @ 0 (0) ---
+15381 --- SIGCHLD (Child exited) @ 0 (0) ---
+15388 sendto(3, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+15388 sendto(3, "\2\0\0\0\f\0\0\0\6\0\0\0group\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+15387 --- SIGCHLD (Child exited) @ 0 (0) ---
+15381 --- SIGCHLD (Child exited) @ 0 (0) ---
+15391 sendto(3, "\2\0\0\0\v\0\0\0\7\0\0\0passwd\0", 19, MSG_NOSIGNAL, NULL, 0) = 19
+15391 sendto(92, "\2\0\0\0\r\0\0\0\6\0\0\0hosts\0", 18, MSG_NOSIGNAL, NULL, 0) = 18
+15412 --- SIGSEGV (Segmentation fault) @ 0 (0) ---
+15414 recvfrom(93, "\266\0\0\0\0\0\0\0\10\0\0\0\276\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(93, "REGISTER", 8, 0, NULL, NULL) = 8
+15414 recvfrom(93, "\266\0\0\0\0\0\0\0\6\0\0\0\260\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(93, "swork0", 6, 0, NULL, NULL) = 6
+15414 recvfrom(93, "\266\0\0\0\0\0\0\0\25\0\0\0\243\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(93, "login.ci.uchicago.edu", 21, 0, NULL, NULL) = 21
+15414 recvfrom(93, "\266\0\0\0\2\0\0\0\20\0\0\0\244\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(93, "maxwalltime = -1", 16, 0, NULL, NULL) = 16
+15417 sendto(93, "\266\0\0\0\3\0\0\0\6\0\0\0\263\0\0\0!\1\366\3", 20, 0, NULL, 0) = 20
+15417 sendto(93, "000000", 6, 0, NULL, 0) = 6
+15414 recvfrom(92, "\3\16\0\0\0\0\0\0\r\0\0\0\16\16\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(92, "CHANNELCONFIG", 13, 0, NULL, NULL) = 13
+15414 recvfrom(92, "\3\16\0\0\0\0\0\0\32\0\0\0\31\16\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(92, " keepalive(120), reconnect", 26, 0, NULL, NULL) = 26
+15414 recvfrom(92, "\3\16\0\0\0\0\0\0\32\0\0\0\31\16\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(92, "ub8a652a-13743a87f30--8000", 26, 0, NULL, NULL) = 26
+15414 recvfrom(92, "\3\16\0\0\2\0\0\0\0\0\0\0\1\16\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15427 sendto(92, "\3\16\0\0\5\0\0\0\203\0\0\0\205\16\0\0\357*\370\r", 20, 0, NULL, 0) = 20
+15427 sendto(92, "java.lang.IllegalArgumentExcepti"..., 131, 0, NULL, 0) = -1 EPIPE (Broken pipe)
+15427 --- SIGPIPE (Broken pipe) @ 0 (0) ---
+15414 recvfrom(93, "\267\0\0\0\2\0\0\0\t\0\0\0\274\0\0\0\0\0\0\0", 20, 0, NULL, NULL) = 20
+15414 recvfrom(93, "HEARTBEAT", 9, 0, NULL, NULL) = 9
+15417 sendto(93, "\267\0\0\0\3\0\0\0\r\0\0\0\271\0\0\0\242\2\\\22", 20, 0, NULL, 0) = 20
+15417 sendto(93, "1337733201883", 13, 0, NULL, 0) = 13
+15390 --- SIGINT (Interrupt) @ 0 (0) ---
+15381 --- SIGINT (Interrupt) @ 0 (0) ---
+15381 --- SIGCHLD (Child exited) @ 0 (0) ---
