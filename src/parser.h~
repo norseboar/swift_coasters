@@ -1,0 +1,9 @@
+#ifndef PARSER_H
+#define PARSER_H
+
+typedef struct sites{
+  int jobsPerNode;
+  char *url;
+} sites;
+
+#endif
