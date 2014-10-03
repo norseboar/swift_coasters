@@ -1,0 +1,5 @@
+Swift is a parallel scripting language developed at the University of Chicago. "Coasters" could be installed on several different machines, and a Swift script will distribute workload across any machines running a coaster.
+
+The original coaster implementation was written in Python. There was a desire to have it rewritten in C for performance reasons.
+
+The project was half-completed -- the coaster implementation here can only handle a subset of the commands that the Python one could. The performance improvement was also lower than hoped; based on a series of 10k tests over 16 coasters, average time improved by 12%.
